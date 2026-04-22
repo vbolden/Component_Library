@@ -31,6 +31,7 @@ function App() {
           user={user}
           showEmail={true}
           showRole={true}
+          onEdit={(userId) => alert(`Editing User ${userId}`)}
         />
 
         {/* <ProductDisplay
