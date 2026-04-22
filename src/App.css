@@ -1,13 +1,13 @@
 .alert {
     display: flex;
-    font-size: 12px;
+    font-size: 14px;
     position: relative;
 }
 
 .success {
     color: #254F22;
     background-color: #DAF9DE;
-    width: 50%;
+    width: 40%;
     height: 70px;
     border-left: 5px solid #254F22;
     border-radius: 5px;
@@ -16,7 +16,7 @@
 .error {
     color: #C00707;
     background-color: #FFB2B2;
-    width: 60%;
+    width: 40%;
     height: 70px;
     border-left: 5px solid #C00707;
     border-radius: 5px;
@@ -25,7 +25,7 @@
 .warning {
     color: #E87F24;
     background-color: #FFF0BE;
-    width: 60%;
+    width: 40%;
     height: 70px;
     border-left: 5px solid #E87F24;
     border-radius: 5px;
@@ -34,7 +34,7 @@
 .info {
     color: #3852B4;
     background-color: #CFECF3;
-    width: 60%;
+    width: 40%;
     height: 70px;
     border-left: 5px solid #3852B4;
     border-radius: 5px;
@@ -48,7 +48,7 @@
     cursor: pointer;
     position: absolute;
     top: -25px;
-    right: -90px;
+    right: -85px;
 }
 
 .user-profile-card {
