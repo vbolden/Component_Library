@@ -50,3 +50,117 @@
     top: -25px;
     right: -90px;
 }
+
+.user-profile-card {
+    width: 300px;
+    padding: 24px;
+    background: #f3f4f6;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+
+.content {
+    margin-bottom: 20px;
+}
+
+.avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 12px;
+}
+
+.user-profile-card h2 {
+    margin: 8px 0;
+    font-size: 20px;
+    color: #111827
+}
+
+.email {
+    color: #4b5563;
+    font-size: 14px;
+    margin: 4px 0;
+}
+
+.role {
+    color: #6b7280;
+    font-size: 14px;
+    margin: 4px 0;
+}
+
+.edit {
+    width: 100%;
+    padding: 10px;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.edit:hover,
+.add-btn:hover {
+    background-color: #2563eb;
+}
+
+.product-display {
+    width: 420px;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #f3f4f6;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+    font-family: sans-serif;
+}
+
+.product-img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.product-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.product-content h3 {
+    margin: 10px 0;
+    color: #111827;
+}
+
+.price {
+    color: #2563eb;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 8px 0;
+}
+
+.description {
+    color: #4b5563;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.stock {
+    margin: 10px 0;
+    font-weight: 500;
+    color: #16a34a;
+}
+
+.add-btn {
+    width: 100%;
+    padding: 12px;
+    background: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 12px;
+    transition: background-color 0.2s ease;
+}
