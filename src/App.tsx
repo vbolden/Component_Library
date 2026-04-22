@@ -31,7 +31,7 @@ function App() {
         <AlertBox
           type='success'
           message='Your profile has been updated successfully!'
-          onClose={() => alert('Alert closed')}
+          onClose={() => setShowAlert(false)}
         />
       )}
 
@@ -40,7 +40,10 @@ function App() {
           user={user}
           showEmail={true}
           showRole={true}
-          onEdit={(userId) => alert(`Editing User ${userId}`)}
+          onEdit={(userId) => {
+            alert(`Editing User ${userId}`);
+            setShowAlert(true);
+          }}
         />
 
         <ProductDisplay
