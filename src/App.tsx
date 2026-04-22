@@ -27,13 +27,7 @@ function App() {
 
   return (
     <div>
-      {showAlert && (
-        <AlertBox
-          type='success'
-          message='Your profile has been updated successfully!'
-          onClose={() => setShowAlert(false)}
-        />
-      )}
+
 
       <div className="container">
         <UserProfileCard
@@ -43,8 +37,15 @@ function App() {
           onEdit={(userId) => {
             alert(`Editing User ${userId}`);
             setShowAlert(true);
-          }}
-        />
+          }}>
+          {showAlert && (
+            <AlertBox
+              type='success'
+              message='Your profile has been updated successfully!'
+              onClose={() => setShowAlert(false)}
+            />
+          )}
+        </UserProfileCard>
 
         <ProductDisplay
           product={product}
